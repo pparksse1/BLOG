@@ -1,0 +1,87 @@
+/* 전체 페이지 스타일 */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 상단바 스타일 */
+.top-bar {
+  height: 10%;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* 홈페이지 이름 스타일 */
+.site-name {
+  font-size: 3rem;
+}
+
+/* 버튼 스타일 */
+.top-bar .buttons button {
+  padding: 5px 10px;
+  background-color: white;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+/* 기본 스타일 */
+.main-content {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100%; /* 최대 너비 설정 */
+  width: 100%; /* 초기 너비 설정 */
+  padding: 0; /* 부모 요소의 패딩 제거 */
+}
+
+/* 메인 컨텐츠 스타일 */
+.main-content h1 {
+  font-size: 14vw; /* 세로 크기를 14vw로 고정 */
+  height: 14vw; /* 높이를 14vw로 고정 */
+  margin: 0; /* 가로 여백 제거 */
+  padding: 0; /* 내부 패딩 제거 */
+  width: auto; /* 가로 크기를 뷰포트 너비에 맞게 자동 조정 */
+  box-sizing: border-box; /* 가로 크기가 뷰포트 너비에 맞게 조정되도록 */
+}
+
+/* h1 요소에 마우스를 올렸을 때의 스타일 */
+.main-content h1:hover {
+  font-style: italic; /* 기운 글씨 스타일로 변경 */
+}
+
+/* 하단바 스타일 */
+.bottom-bar {
+  height: 10%;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* 하단바 내용 스타일 */
+.text {
+  font-size: 2rem;
+}
+
+/* 하단 바 버튼 스타일 */
+.bottom-bar .buttons-bottom button {
+  padding: 5px 10px;
+  background-color: white;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 2rem;
+}
